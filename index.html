@@ -1,1 +1,404 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ferreira & Silva | Comércio de Cebolas LTDA</title>
+
+  <meta name="description" content="Ferreira & Silva Comércio de Cebolas LTDA. Empresa de comércio de cebolas e hortifrutigranjeiros, com atuação em varejo e atacado desde 2008.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#173f2a">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.7;
+      background: #fff;
+    }
+
+    header {
+      background: #173f2a;
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      display: block;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #e9c76a;
+    }
+
+    .hero {
+      background:
+        linear-gradient(rgba(15, 40, 23, .70),
+        rgba(15, 40, 23, .70)),
+        url("https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=1800&q=85")
+        center/cover;
+      color: white;
+      text-align: center;
+      padding: 115px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 75px 25px;
+    }
+
+    h2 {
+      color: #173f2a;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .about {
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 850px;
+      margin: auto;
+      color: #555;
+    }
+
+    .products {
+      background: #f6f7f2;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+      margin-top: 35px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,.07);
+      text-align: left;
+    }
+
+    .product img {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+    }
+
+    .product-content {
+      padding: 22px;
+    }
+
+    .product h3 {
+      color: #173f2a;
+      margin-bottom: 10px;
+    }
+
+    .values {
+      text-align: center;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      margin-top: 35px;
+    }
+
+    .value {
+      padding: 25px;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+    }
+
+    .value h3 {
+      color: #173f2a;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #f6f7f2;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    .company-info {
+      max-width: 650px;
+      margin: 30px auto 0;
+      padding: 25px;
+      background: white;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .company-info p {
+      margin: 8px 0;
+    }
+
+    footer {
+      background: #173f2a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 13px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media(max-width: 700px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero {
+        padding: 85px 20px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    FERREIRA & SILVA
+    <span>COMÉRCIO DE CEBOLAS LTDA</span>
+  </div>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#empresa">Empresa</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <h1>Tradição no Comércio de Cebolas</h1>
+
+  <p>
+    Ferreira & Silva Comércio de Cebolas LTDA.
+    Atuando no segmento de hortifrutigranjeiros,
+    com atendimento para varejo e atacado.
+  </p>
+</section>
+
+<section class="container about" id="empresa">
+  <h2>Quem Somos</h2>
+
+  <p>
+    A Ferreira & Silva Comércio de Cebolas LTDA
+    é uma empresa fundada em 08 de setembro de 2008,
+    na cidade de São Paulo, estado de São Paulo.
+  </p>
+
+  <br>
+
+  <p>
+    Nossa atividade está voltada ao comércio varejista
+    de hortifrutigranjeiros, com foco no comércio de
+    cebolas e atendimento aos segmentos de varejo
+    e atacado.
+  </p>
+
+  <br>
+
+  <p>
+    Trabalhamos com compromisso, responsabilidade
+    e respeito aos nossos clientes e parceiros comerciais.
+  </p>
+</section>
+
+<section class="container products" id="produtos">
+  <h2>Nossos Produtos</h2>
+
+  <p>
+    Conheça nossa atuação no segmento de hortifrutigranjeiros.
+  </p>
+
+  <div class="product-grid">
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=800&q=80"
+        alt="Cebolas frescas">
+      <div class="product-content">
+        <h3>Cebolas</h3>
+        <p>
+          Comércio de cebolas para clientes
+          dos segmentos de varejo e atacado.
+        </p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img
+        src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
+        alt="Hortifrutigranjeiros">
+      <div class="product-content">
+        <h3>Hortifrutigranjeiros</h3>
+        <p>
+          Atuação no segmento de comércio
+          de produtos hortifrutigranjeiros.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container values">
+  <h2>Nossos Compromissos</h2>
+
+  <div class="values-grid">
+
+    <div class="value">
+      <h3>Experiência</h3>
+      <p>
+        Empresa fundada em 2008,
+        com trajetória no setor comercial.
+      </p>
+    </div>
+
+    <div class="value">
+      <h3>Atendimento</h3>
+      <p>
+        Atuação direcionada aos segmentos
+        de varejo e atacado.
+      </p>
+    </div>
+
+    <div class="value">
+      <h3>Responsabilidade</h3>
+      <p>
+        Compromisso com uma relação
+        comercial transparente.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="container contact" id="contato">
+  <h2>Informações da Empresa</h2>
+
+  <p>
+    Conheça os dados cadastrais da
+    Ferreira & Silva Comércio de Cebolas LTDA.
+  </p>
+
+  <div class="company-info">
+
+    <p><strong>Razão Social:</strong>
+      Ferreira & Silva - Comércio de Cebolas LTDA
+    </p>
+
+    <p><strong>CNPJ:</strong>
+      10.383.035/0001-00
+    </p>
+
+    <p><strong>Data de Fundação:</strong>
+      08/09/2008
+    </p>
+
+    <p><strong>Localização:</strong>
+      São Paulo - SP
+    </p>
+
+    <p><strong>Atividade Econômica:</strong>
+      47.24-5-00 - Comércio varejista de hortifrutigranjeiros
+    </p>
+
+    <p><strong>Modalidade:</strong>
+      Varejo e atacado
+    </p>
+
+    <p><strong>Situação Cadastral Informada:</strong>
+      Ativa
+    </p>
+
+  </div>
+</section>
+
+<footer>
+  <p><strong>FERREIRA & SILVA - COMÉRCIO DE CEBOLAS LTDA</strong></p>
+
+  <p>CNPJ: 10.383.035/0001-00</p>
+
+  <p>São Paulo - SP</p>
+
+  <p>© 2026 - Todos os direitos reservados.</p>
+
+  <p>
+    <a href="privacidade.html"
+       style="color:white;">
+       Política de Privacidade
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
